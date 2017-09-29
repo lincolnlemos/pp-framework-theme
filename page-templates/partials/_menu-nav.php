@@ -1,5 +1,5 @@
 <?php 
-  $mobileLogo = get_field('mobile_logo', get_option( 'page_on_front' ));
+  $mobileLogo = get_field('mobile_logotipo', get_option( 'page_on_front' ));
 ?>
   <nav id="navmenu" class="navbar navbar-expand-sm">
     <a class="navbar-brand" href="<?php echo get_home_url(); ?>">     

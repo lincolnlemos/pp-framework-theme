@@ -1,7 +1,7 @@
 [
     {
         "key": "group_561578035a638",
-        "title": "Op\u00e7\u00f5es Home",
+        "title": "Opções Home",
         "fields": [
             {
                 "key": "field_58d1e6a290849",
@@ -32,14 +32,15 @@
                     "class": "",
                     "id": ""
                 },
-                "min": "",
-                "max": "",
+                "min": 0,
+                "max": 0,
                 "layout": "block",
                 "button_label": "Adicionar slide",
+                "collapsed": "",
                 "sub_fields": [
                     {
                         "key": "field_5615768044bb3",
-                        "label": "T\u00edtulo",
+                        "label": "Título",
                         "name": "titulo_slider",
                         "type": "text",
                         "instructions": "",
@@ -100,7 +101,7 @@
                     },
                     {
                         "key": "field_561576b844bb5",
-                        "label": "Descri\u00e7\u00e3o",
+                        "label": "Descrição",
                         "name": "descricao_slider",
                         "type": "textarea",
                         "instructions": "",
@@ -139,7 +140,7 @@
             },
             {
                 "key": "field_561577915ca7d",
-                "label": "Logotipo Cabe\u00e7alho",
+                "label": "Logotipo Cabeçalho",
                 "name": "logotipo",
                 "type": "image",
                 "instructions": "",
@@ -163,8 +164,32 @@
             },
             {
                 "key": "field_562c15be1ca44",
-                "label": "Logotipo Rodap\u00e9",
+                "label": "Logotipo Rodapé",
                 "name": "logotipo_rodape",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_59cea88ae34bf",
+                "label": "Logotipo Mobile",
+                "name": "mobile_logotipo",
                 "type": "image",
                 "instructions": "",
                 "required": 0,
@@ -203,7 +228,7 @@
             },
             {
                 "key": "field_561578d429a51",
-                "label": "Endere\u00e7o",
+                "label": "Endereço",
                 "name": "endereco_info",
                 "type": "textarea",
                 "instructions": "",
@@ -227,7 +252,7 @@
                 "label": "Telefone",
                 "name": "telefone_info",
                 "type": "text",
-                "instructions": "Apenas n\u00fameros. Exemplos:\r\n(62) 3932-7441 ->  6239327441",
+                "instructions": "Apenas números. Exemplos:\r\n(62) 3932-7441 ->  6239327441",
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
@@ -311,14 +336,15 @@
                     "class": "",
                     "id": ""
                 },
-                "min": "",
-                "max": "",
+                "min": 0,
+                "max": 0,
                 "layout": "block",
                 "button_label": "Adicionar nova",
+                "collapsed": "",
                 "sub_fields": [
                     {
                         "key": "field_5615787529a4f",
-                        "label": "\u00cdcone",
+                        "label": "Ícone",
                         "name": "icone_info",
                         "type": "font-awesome",
                         "instructions": "",
@@ -921,7 +947,8 @@
                             "fa-youtube": "&#xf167; fa-youtube",
                             "fa-youtube-play": "&#xf16a; fa-youtube-play",
                             "fa-youtube-square": "&#xf166; fa-youtube-square"
-                        }
+                        },
+                        "show_preview": 1
                     },
                     {
                         "key": "field_561578a229a50",
