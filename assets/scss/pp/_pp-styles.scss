@@ -221,7 +221,11 @@
 /* ----------------------------------------- ACF Map */   
 
 /* Bootstrap Navbar Toggle Close Animation 
- * You need add 3 span inside .navbar-toggler
+ * Usage:
+ * Remove <span> inside .navbar-toggler
+ * Insert new 3 <span> in .navbar-toggler
+ * Add class .animation-close-toggle to navbar element
+ * Add class .collapsed in button.navbar-toggler
 /* ----------------------------------------- */
   .navbar.animation-close-toggle {
 

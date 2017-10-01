@@ -1,7 +1,7 @@
 <?php 
   $mobileLogo = get_field('mobile_logotipo', get_option( 'page_on_front' ));
 ?>
-  <nav id="navmenu" class="navbar navbar-expand-sm">
+  <nav id="navmenu" class="navbar navbar-expand-lg navbar-light animation-close-toggle">
     <a class="navbar-brand" href="<?php echo get_home_url(); ?>">     
       <img src="<?php echo get_field('logotipo', get_option( 'page_on_front' )); ?>" class="img-responsive"/>
       <?php if ($mobileLogo): ?>
@@ -10,8 +10,8 @@
       <?php echo get_bloginfo( 'name' ) ?>
     </a>
     
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
     </button>
 
       <?php 
