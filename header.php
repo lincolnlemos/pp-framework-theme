@@ -35,7 +35,7 @@
 		
 	</head>
 
-	<body <?php body_class('body-offcanvas'); ?>>
+	<body <?php body_class(); ?>>
 
 		<header id="header">			
 			<div class="container">
