@@ -219,3 +219,60 @@
   } 
 
 /* ----------------------------------------- ACF Map */   
+
+/* Bootstrap Navbar Toggle Close Animation 
+ * You need add 3 span inside .navbar-toggler
+/* ----------------------------------------- */
+  .navbar.animation-close-toggle {
+
+    .navbar-toggler {
+      position: relative;
+
+      &:focus, &:active {
+        outline: 0;
+      } // &:focus, &:active
+
+      span {
+        display: block;
+        background-color: #444;
+        height: 3px;
+        width: 25px;
+        margin-top: 4px;
+        margin-bottom: 4px;      
+        transform: rotate(0deg);
+        position: relative;
+        left: 0;
+        opacity: 1;
+        &:nth-child(1), &:nth-child(3) {
+          transition: transform .35s ease-in-out;
+        } // &:nth-child(1), &:nth-child(3)
+      } //span
+      
+      &:not(.collapsed) {
+        span:nth-child(1) {
+          position: absolute;
+          left: 12px;
+          top: 10px;
+          transform: rotate(135deg);
+          opacity: 0.9;
+        } // span:nth-child(1) 
+
+        span:nth-child(2) {
+            height: 12px;
+            visibility: hidden;
+            background-color: transparent;
+        }
+        
+        span:nth-child(3) {
+            position: absolute;
+            left: 12px;
+            top: 10px;
+            transform: rotate(-135deg);
+            opacity: 0.9;
+        }
+
+      } //&:not(.collapsed)
+
+    } // .navbar-toggler
+  }
+/* ----------------------------------------- Bootstrap Navbar Toggle Close Animation */     
