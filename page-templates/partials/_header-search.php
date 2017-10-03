@@ -1,6 +1,6 @@
 <?php 
 											
-	if (is_search()) {
+	if (is_search() && isset($_GET['s']) && $_GET['s']) {
 		 echo '<div class="search-header">';
 
 		 		$qtd = $wp_query->found_posts;
