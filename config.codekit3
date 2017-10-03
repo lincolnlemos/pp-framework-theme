@@ -1430,6 +1430,22 @@
 		"oAP": "\/dummy\/acf\/opcoes.php",
 		"oF": 0
 		},
+	"\/dummy\/acf\/pagina-downloads-com-filtro.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/dummy\/acf\/pagina-downloads-com-filtro-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/dummy\/acf\/pagina-downloads.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/dummy\/acf\/pagina-downloads-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/dummy\/acf\/partials\/bg-categoria.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1588,6 +1604,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/pp.pot",
+		"oF": 0
+		},
+	"\/page-templates\/page-downloads-com-filtro.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/page-downloads-com-filtro.php",
 		"oF": 0
 		},
 	"\/page-templates\/page-home.php": {
