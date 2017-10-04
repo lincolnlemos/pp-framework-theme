@@ -59,7 +59,7 @@ add_action( 'wp_print_scripts', 'pp_load_scripts' );
 			wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', false, '4.6.3');
 			wp_enqueue_style( 'fancybox-css', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css' );
 			wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/vendor/slick/slick.css');
-			wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/vendor/slick/slick-theme.css');
+			wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/vendor/slick/slick-theme.css');
 
 		} // is_admin
 
