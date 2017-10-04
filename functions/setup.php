@@ -34,7 +34,7 @@ function pp_load_scripts(){
 
 		wp_enqueue_script( 'fancybox-js', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js', ['jquery' ]);	
 		
-		wp_enqueue_script('common', $path . 'min/common-min.js', array('jquery'));
+		wp_enqueue_script('pp-common', $path . 'min/common-min.js', array('jquery'));
 		// wp_enqueue_script('phone', $path . 'min/phone-min.js', array('jquery'));
 		// wp_enqueue_script('not-phone', $path . 'min/not-phone-min.js', array('jquery'));
   }
