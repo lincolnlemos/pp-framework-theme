@@ -250,7 +250,7 @@
                 "label": "Telefone",
                 "name": "telefone_info",
                 "type": "text",
-                "instructions": "Apenas números. Exemplos:\r\n(62) 3932-7441 ->  6239327441",
+                "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
@@ -961,6 +961,199 @@
                         "placeholder": ""
                     }
                 ]
+            },
+            {
+                "key": "field_59d66acd2c6fc",
+                "label": "Popups",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_59d66364e80b0",
+                "label": "Popups",
+                "name": "pp-popups",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Adicionar Popup",
+                "sub_fields": [
+                    {
+                        "key": "field_59d66a97e80b7",
+                        "label": "Ativo",
+                        "name": "ativo",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "Sim",
+                        "default_value": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_59d66374e80b1",
+                        "label": "Localização",
+                        "name": "localizacao",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "post",
+                            "page"
+                        ],
+                        "taxonomy": [],
+                        "allow_null": 0,
+                        "multiple": 1,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_59d66938e80b2",
+                        "label": "Conteúdo",
+                        "name": "conteudo",
+                        "type": "flexible_content",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layouts": {
+                            "59d66a40ef610": {
+                                "key": "59d66a40ef610",
+                                "name": "imagem",
+                                "label": "Imagem",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_59d6697be80b3",
+                                        "label": "Imagem",
+                                        "name": "imagem",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "return_format": "array",
+                                        "preview_size": "thumbnail",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": ""
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "59d6699ce80b5": {
+                                "key": "59d6699ce80b5",
+                                "name": "video",
+                                "label": "Video",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_59d669a1e80b6",
+                                        "label": "Url",
+                                        "name": "url",
+                                        "type": "url",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": ""
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            }
+                        },
+                        "button_label": "Adicionar Conteúdo",
+                        "min": 1,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "key": "field_59d66af4fc4ce",
+                "label": "Outros",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_59d66afafc4cf",
+                "label": "Disqus Shortname",
+                "name": "pp_disqus_shortname",
+                "type": "text",
+                "instructions": "Crie uma conta do disqus (https:\/\/disqus.com\/register\/) e gere um shortname (forum). Insira apenas o shortname aqui.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
             }
         ],
         "location": [

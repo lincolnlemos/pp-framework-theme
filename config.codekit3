@@ -1394,54 +1394,42 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/dummy\/acf\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dummy\/acf\/index.php",
-		"oF": 0
-		},
-	"\/dummy\/acf\/opcoes-lincoln-home.json": {
+	"\/dummy\/acf\/home\/opcoes-lincoln-home.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/dummy\/acf\/opcoes-lincoln-home-min.json",
+		"oAP": "\/dummy\/acf\/home\/opcoes-lincoln-home-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/dummy\/acf\/opcoes-vjr-home.json": {
+	"\/dummy\/acf\/home\/opcoes-vjr-home.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/dummy\/acf\/opcoes-vjr-home-min.json",
+		"oAP": "\/dummy\/acf\/home\/opcoes-vjr-home-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/dummy\/acf\/opcoes.json": {
+	"\/dummy\/acf\/home\/opcoes.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/dummy\/acf\/opcoes-min.json",
+		"oAP": "\/dummy\/acf\/home\/opcoes-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/dummy\/acf\/opcoes.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dummy\/acf\/opcoes.php",
-		"oF": 0
-		},
-	"\/dummy\/acf\/pagina-downloads-com-filtro.json": {
+	"\/dummy\/acf\/paginas\/pagina-downloads-com-filtro.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/dummy\/acf\/pagina-downloads-com-filtro-min.json",
+		"oAP": "\/dummy\/acf\/paginas\/pagina-downloads-com-filtro-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/dummy\/acf\/pagina-downloads.json": {
+	"\/dummy\/acf\/paginas\/pagina-downloads.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/dummy\/acf\/pagina-downloads-min.json",
+		"oAP": "\/dummy\/acf\/paginas\/pagina-downloads-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
