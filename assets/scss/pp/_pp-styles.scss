@@ -1,4 +1,21 @@
 
+// Footer always on bottom
+// Main will fill all remaining space
+/* ----------------------------------------- */
+  html {
+    height: 100%; 
+  }
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    main {
+      flex-grow: 1;
+    }
+  }  
+/* ----------------------------------------- Footer always on bottom */    
+
+
 /* Highlights */
 /* ----------------------------------------- */
   h1, h2, h3, h4, h5, h6, p, a, li, span {
