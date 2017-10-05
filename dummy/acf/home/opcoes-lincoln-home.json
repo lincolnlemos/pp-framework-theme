@@ -1117,6 +1117,25 @@
                         "button_label": "Adicionar Conteúdo",
                         "min": 1,
                         "max": 1
+                    },
+                    {
+                        "key": "field_59d66dde07560",
+                        "label": "CSS Adicional",
+                        "name": "css_adicional",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 2,
+                        "new_lines": ""
                     }
                 ]
             },

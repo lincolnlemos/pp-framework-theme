@@ -167,7 +167,7 @@ function get_partial($file) {
 }
 
 function get_block($file) {
-  include get_template_directory() . '/page-templates/partials/blocks/_'.$file.'.php';
+  include (PP_BLOCK_PATH . $file.'.php');
 }
 
 

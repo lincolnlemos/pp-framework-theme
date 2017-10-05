@@ -8,7 +8,7 @@
 	</div>
 	
 	<footer>
-		<?php get_block('comments-disqus'); ?>
+		<?php get_block('_comments-disqus'); ?>
 	</footer>
 
 </article>

@@ -1516,6 +1516,12 @@
 		"oAP": "\/functions\/custom-acf.php",
 		"oF": 0
 		},
+	"\/functions\/custom-actions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions\/custom-actions.php",
+		"oF": 0
+		},
 	"\/functions\/custom-functions.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1658,6 +1664,18 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/blocks\/_comments-disqus.php",
+		"oF": 0
+		},
+	"\/page-templates\/partials\/blocks\/_popups-imagem.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/partials\/blocks\/_popups-imagem.php",
+		"oF": 0
+		},
+	"\/page-templates\/partials\/blocks\/_popups-video.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/partials\/blocks\/_popups-video.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/blocks\/_share-buttons.php": {
