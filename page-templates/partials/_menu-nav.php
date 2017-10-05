@@ -1,13 +1,23 @@
-<?php 
+<?php   
   $mobileLogo = get_field('mobile_logotipo', get_option( 'page_on_front' ));
+  $logotipo = get_field('logotipo', get_option( 'page_on_front' ));
 ?>
   <nav id="navmenu" class="navbar navbar-expand-lg navbar-light animation-close-toggle">
-    <a class="navbar-brand" href="<?php echo get_home_url(); ?>">     
-      <img src="<?php echo get_field('logotipo', get_option( 'page_on_front' )); ?>" class="img-responsive"/>
-      <?php if ($mobileLogo): ?>
-         <img src="<?php echo $mobileLogo; ?>" width="30" height="30" class="d-inline-block align-top" alt="">
-       <?php endif ?>       
-      <?php echo get_bloginfo( 'name' ) ?>
+    <a class="navbar-brand" href="<?php echo get_home_url(); ?>"> 
+      
+      <?php         
+        // Se estiver cadastrado o logotipo, exibe o mesmo. 
+        // Caso contrário exibe o nome do site
+        $headerName = $logotipo ? 
+          '<img src="'. $logotipo .'" class="d-none d-md-inline-block img-responsive" alt="Logotipo '.get_bloginfo().'"/>' :
+          get_bloginfo( 'name' );
+        echo $headerName;
+
+        // Se existir logo para mobile, exibe-o
+        echo ($mobileLogo ? '<img src="'. $mobileLogo .'" height="30" class="d-inline-block img-responsive d-md-none align-top" alt="Logotipo '.get_bloginfo().'">' : '');
+
+      ?>
+      
     </a>
     
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +31,7 @@
           'container'         => 'div',
           'container_class'   => 'collapse navbar-collapse',
           'container_id'      => 'navbarNav',
-          'menu_class'        => 'navbar-nav',
+          'menu_class'        => 'navbar-nav ml-auto', // A classe mr-auto alinha o menu a direita
           'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
           'walker'            => new WP_Bootstrap_Navwalker()
         )); 
