@@ -28,7 +28,9 @@
 
 /* Forms, inputs, etc */
 /* ----------------------------------------- */
-  input:focus { outline-color: theme-color("primary"); }
+  input, textarea, select {
+    outline-color: theme-color("primary");
+  }
 /* ----------------------------------------- Forms, inputs, etc */    
 
 /* Sidebar Fixed */
@@ -202,9 +204,6 @@
       border-radius: 0px;             
       color: theme-color("primary");        
       padding-right: 30px;
-      &:focus {
-        outline: 0;
-      }
       &:hover {
         cursor: pointer;
       }
