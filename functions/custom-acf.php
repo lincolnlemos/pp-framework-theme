@@ -1,6 +1,30 @@
 <?php
 
 
+/* Valida CPF no ACF */
+/* ----------------------------------------- */
+  add_filter('acf/validate_value/name=cpf_user', 'pp_acf_valid_cpf', 10, 4);
+
+  function pp_acf_valid_cpf( $valid, $value, $field, $input ){
+    
+    // bail early if value is already invalid
+    if( !$valid ) {     
+      return $valid;      
+    }
+    
+    // Verificamos se o campo é inválido usando nossa função para validar CPF
+    if (!valida_cpf($value)) {
+      $valid = "CPF Inválido!";
+    }
+    
+    // return
+    return $valid;    
+    
+  }
+
+/* ----------------------------------------- Valida CNPJ no ACF */  
+
+
 /* Valida CNPJ no ACF */
 /* ----------------------------------------- */
   add_filter('acf/validate_value/name=cnpj_user', 'pp_acf_valid_cnpj', 10, 4);
