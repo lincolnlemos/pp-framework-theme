@@ -37,6 +37,12 @@ function pp_load_scripts(){
 		wp_enqueue_script('pp-common', $path . 'min/common-min.js', array('jquery'));
 		// wp_enqueue_script('phone', $path . 'min/phone-min.js', array('jquery'));
 		// wp_enqueue_script('not-phone', $path . 'min/not-phone-min.js', array('jquery'));
+		
+		// Chamada para criar variáveis com PHP acessiveis no JS
+		// Para usar, basta colocar siteVars.theme_url
+		wp_localize_script( 'jquery', 'siteVars', [
+			'theme_url' => get_template_directory_uri()
+		] );
   }
 }
 add_action( 'wp_print_scripts', 'pp_load_scripts' );
