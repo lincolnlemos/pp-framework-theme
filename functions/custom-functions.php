@@ -211,20 +211,23 @@ function taxonomy_thumbnail_bg ( $nomeField ) {
 }
 
 
+
 /* É preciso setar o ACF para retornar apenas a URL. */
 /* ----------------------------------------- */
   function acf_thumbnail_bg ( $nomeField ) {
+    echo get_acf_thumbnail_bg($nomeField);
+  }
+
+  function get_acf_thumbnail_bg ( $nomeField ) {
     global $post;      
       if (get_field($nomeField)) {
         $src = get_field($nomeField);  
       } else {
         return;
       }      
-      echo 'style="background-image: url('. $src .' );"';
+      return 'style="background-image: url('. $src .' );"';
   }
-
 /* ----------------------------------------- É preciso setar o ACF para retornar apenas a URL. */    
-
 
 function mascara_string($mascara,$string) {
    $string = str_replace(" ","",$string);
