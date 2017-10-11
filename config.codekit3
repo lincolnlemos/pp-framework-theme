@@ -1696,6 +1696,12 @@
 		"oAP": "\/page-templates\/partials\/blocks\/_social-links.php",
 		"oF": 0
 		},
+	"\/page-templates\/partials\/blocks\/pp-block-depoimentos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/partials\/blocks\/pp-block-depoimentos.php",
+		"oF": 0
+		},
 	"\/page-templates\/partials\/custons\/_assinatura-katon.php": {
 		"ft": 8192,
 		"oA": 1,
