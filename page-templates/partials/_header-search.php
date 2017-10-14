@@ -1,5 +1,5 @@
 <?php 
-											
+	global $wp_query;		
 	if (is_search() && isset($_GET['s']) && $_GET['s']) {
 		 echo '<div class="search-header">';
 
