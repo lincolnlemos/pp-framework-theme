@@ -1,4 +1,4 @@
-	<footer id="footer" role="contentinfo">
+	<footer id="footer">
 		<div class="container">
 			<a class="logotipo logotipo-rodape" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<img src="<?php echo get_field('logotipo_rodape', get_option( 'page_on_front' )); ?>" class="img-responsive"/>
