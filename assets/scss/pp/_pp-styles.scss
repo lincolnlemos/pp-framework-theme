@@ -81,7 +81,18 @@
       .wpcf7-mail-sent-ok {
         display: none !important;
       }
-    }
+    } 
+    
+    // Quebra a linha no response para formulários inline
+    .form-inline {
+      &:after {
+        content: '';
+        width: 100%;
+      }
+      .wpcf7-response-output {
+        order: 1;
+      }
+    }   
   }
 /* ----------------------------------------- Contact Form 7 */    
 
@@ -184,8 +195,7 @@
       
   .select-box {   
     background-color: white;
-    margin: 0 !important;
-    margin-bottom: 1em !important;
+    margin: 0 !important;    
     position: relative;
     border: 1px solid fade(theme-color("primary"), 20%);
     z-index: 2;
@@ -247,6 +257,7 @@
 
     .navbar-toggler {
       position: relative;
+      height: 35px;
 
       &:focus, &:active {
         outline: 0;

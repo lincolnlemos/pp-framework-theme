@@ -15,10 +15,28 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.smbdeleteAAA61337f2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA61337f2",
+		"oF": 0
+		},
 	"\/404.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/404.php",
+		"oF": 0
+		},
+	"\/assets\/css\/.smbdeleteAAA6117c60": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.smbdeleteAAA6117c60",
+		"oF": 0
+		},
+	"\/assets\/css\/.smbdeleteAAA6117c61": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.smbdeleteAAA6117c61",
 		"oF": 0
 		},
 	"\/assets\/css\/admin-style.css": {
@@ -1355,6 +1373,12 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/pp\/.smbdeleteAAA41e5d97": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/pp\/.smbdeleteAAA41e5d97",
+		"oF": 0
+		},
 	"\/assets\/scss\/pp\/_pp-mixins.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1393,6 +1417,14 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/dummy\/acf\/block\/block-depoimentos.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/dummy\/acf\/block\/block-depoimentos-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/dummy\/acf\/home\/opcoes-lincoln-home.json": {
 		"ft": 524288,
@@ -1502,6 +1534,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/functions\/.smbdeleteAAA41e5dde": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions\/.smbdeleteAAA41e5dde",
 		"oF": 0
 		},
 	"\/functions\/blocks\/layout-gallerys.php": {
