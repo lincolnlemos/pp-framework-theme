@@ -277,41 +277,50 @@ function get_images_url($file) {
 
 /* Posts Relacionados */
 /* ----------------------------------------- */
-function pp_related() { 
+function pp_related($args = []) { 
   global $post;
-
-  $categories = get_the_category($post->ID);    
-  if ($categories) {  
+  // extract($args);
+  // echo '<pre>'. print_r($post, 1) . '</pre>';
     
-    $category_ids = array();
-    foreach($categories as $individual_category) {
-      $category_ids[] = $individual_category->term_id;
-    } // foreach categories
+    // Define alguns argumentos baseado no post type object
+    $postTypeObj = get_post_type_object($post->post_type);    
+    $taxonomies = isset($args['taxonomies']) ? $args['taxonomies'] : $postTypeObj->taxonomies;
 
-    $args = array(       
+    // echo '<pre>'. print_r($postTypeObj, 1) . '</pre>';
+    
+    $defaultargsQuery = $argsQuery = array(       
       'post__not_in' => array($post->ID), 
-      'showposts' => 4, // Number of related posts that will be shown. 
-    ); 
-    
-    if ($category_ids) {
-      $args['category__in'] = $category_ids;
-    }
+      'post_type' => $post->post_type,
+      'posts_per_page' => (isset($args['posts_per_page']) ? $args['posts_per_page'] : 3), 
+    );
 
-    $my_query = new WP_Query($args); 
-    if( $my_query->have_posts() ) {
+    // Verifica se existem termos relacionadas ao post
+    $terms = wp_get_post_terms($post->ID, $taxonomies, ['fields' => 'ids']);
+    // Se existir, adiciona a query
+    $argsQuery['tax_query'] = [
+      [
+        'taxonomy' => $taxonomies[0],
+        'field' => 'term_id',
+        'terms' => $terms
+      ]
+    ];
+
+    $relatedPostsQuery = new WP_Query($argsQuery);
+    // Se não existir nenhum relacionado, pega qualquer outro post
+    if (!$relatedPostsQuery->have_posts()) {
+      $relatedPostsQuery = new WP_Query($defaultargsQuery);
+    } 
+
+    if( $relatedPostsQuery->have_posts() ) {
       echo  '<div id="post-relacionados">',
-              '<div class="container">',
-                '<h4>Leia Também:</h4>',
+                '<h4 class="title">'.(isset($args['title']) ? $args['title'] : 'Leia Também:').'</h4>',
                 '<div class="items">';                      
-                  while ( $my_query->have_posts() ) : $my_query->the_post();
+                  while ( $relatedPostsQuery->have_posts() ) : $relatedPostsQuery->the_post();
                     echo get_partial('_loop-blog' );
                   endwhile;
       echo      '</div>',
-              '</div>',
-            '</div>';
+              '</div>';
     } // endif
-
-  } // if categories
 
   wp_reset_query(); 
 
@@ -362,3 +371,40 @@ function pp_related() {
   }
 
 /* ----------------------------------------- PP Default Gallery */    
+
+
+
+/* Remove width fixo de imagens com legenda no .hentry */
+/* ----------------------------------------- */
+  add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
+  add_shortcode('caption', 'fixed_img_caption_shortcode');
+  function fixed_img_caption_shortcode($attr, $content = null) {
+    // New-style shortcode with the caption inside the shortcode with the link and image tags.
+    if ( ! isset( $attr['caption'] ) ) {
+      if ( preg_match( '#((?:<a [^>]+>\s*)?<img [^>]+>(?:\s*</a>)?)(.*)#is', $content, $matches ) ) {
+        $content = $matches[1];
+        $attr['caption'] = trim( $matches[2] );
+      }
+    }
+
+    // Allow plugins/themes to override the default caption template.
+    $output = apply_filters('img_caption_shortcode', '', $attr, $content);
+    if ( $output != '' )
+      return $output;
+
+    extract(shortcode_atts(array(
+      'id'    => '',
+      'align'   => 'alignnone',
+      'width'   => '',
+      'caption' => ''
+    ), $attr));
+
+    if ( 1 > (int) $width || empty($caption) )
+      return $content;
+
+    if ( $id ) $id = 'id="' . esc_attr($id) . '" ';
+
+    return '<div ' . $id . 'class="wp-caption ' . esc_attr($align) . '" style="width: auto">'
+    . do_shortcode( $content ) . '<p class="wp-caption-text">' . $caption . '</p></div>';
+  }
+/* ----------------------------------------- Remvoe width fixo de imagens com legenda no .hentry */    
