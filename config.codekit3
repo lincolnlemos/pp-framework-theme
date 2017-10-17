@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/404.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/404.php",
-		"oF": 0
-		},
 	"\/assets\/css\/.smbdeleteAAA6117c60": {
 		"ft": 8192,
 		"oA": 2,
@@ -1373,6 +1367,19 @@
 		"oAP": "\/assets\/scss\/pp\/.smbdeleteAAA41e5d97",
 		"oF": 0
 		},
+	"\/assets\/scss\/pp\/_pp-blocks.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/_pp-blocks.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/pp\/_pp-mixins.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1395,6 +1402,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/css\/_pp-styles.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/pp\/blocks\/_pp-block-depoimentos.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/pp\/css\/_pp-block-depoimentos.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1530,12 +1550,6 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
-	"\/functions\/.smbdeleteAAA41e5dde": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/functions\/.smbdeleteAAA41e5dde",
-		"oF": 0
-		},
 	"\/functions\/blocks\/layout-gallerys.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1558,6 +1572,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/custom-functions.php",
+		"oF": 0
+		},
+	"\/functions\/custom-shortcakes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions\/custom-shortcakes.php",
 		"oF": 0
 		},
 	"\/functions\/custom-wpcf7.php": {
@@ -1668,10 +1688,16 @@
 		"oAP": "\/page-templates\/blocks\/_social-links.php",
 		"oF": 0
 		},
-	"\/page-templates\/blocks\/pp-block-depoimentos.php": {
+	"\/page-templates\/blocks\/carousel-depoimentos.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page-templates\/blocks\/pp-block-depoimentos.php",
+		"oAP": "\/page-templates\/blocks\/carousel-depoimentos.php",
+		"oF": 0
+		},
+	"\/page-templates\/blocks\/loop-content-post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/blocks\/loop-content-post.php",
 		"oF": 0
 		},
 	"\/page-templates\/page-downloads-com-filtro.php": {
@@ -1704,18 +1730,6 @@
 		"oAP": "\/page-templates\/partials\/_header-search.php",
 		"oF": 0
 		},
-	"\/page-templates\/partials\/_loop-blog.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/_loop-blog.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/_loop-page.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/_loop-page.php",
-		"oF": 0
-		},
 	"\/page-templates\/partials\/_menu-default.php": {
 		"ft": 8192,
 		"oA": 1,
@@ -1740,10 +1754,34 @@
 		"oAP": "\/page-templates\/partials\/custons\/_assinatura-katon.php",
 		"oF": 0
 		},
-	"\/page.php": {
+	"\/page-templates\/partials\/loop-404.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page.php",
+		"oAP": "\/page-templates\/partials\/loop-404.php",
+		"oF": 0
+		},
+	"\/page-templates\/partials\/loop-blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/partials\/loop-blog.php",
+		"oF": 0
+		},
+	"\/page-templates\/partials\/loop-page-sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/partials\/loop-page-sidebar.php",
+		"oF": 0
+		},
+	"\/page-templates\/partials\/loop-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/partials\/loop-page.php",
+		"oF": 0
+		},
+	"\/page-templates\/partials\/loop-single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/partials\/loop-single.php",
 		"oF": 0
 		},
 	"\/projeto.sublime-workspace": {
@@ -1776,10 +1814,10 @@
 		"oAP": "\/searchform.php",
 		"oF": 0
 		},
-	"\/single.php": {
+	"\/sidebar.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/single.php",
+		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/style.css": {

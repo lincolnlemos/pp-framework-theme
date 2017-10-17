@@ -10,6 +10,9 @@ add_action( 'wp_footer', 'pp_popups');
 function pp_popups() {
   global $post, $popupContent, $cssAdicional;
   
+  // Prevent erros in page without $post (Ex: 404 error)
+  if (!$post) return;
+  
   // Get popups
   $popups = get_field( 'pp-popups', get_option( 'page_on_front' ) );
     

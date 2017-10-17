@@ -1,20 +1,18 @@
 <?php get_header(); ?>
 	<main id="main-content" class="main">
 		<div class="container">
-
 			<?php 
-				echo get_partial('_header-search');
-				echo get_partial('_header-archive');
-
-				if (have_posts()): while (have_posts()) : the_post();
-					get_partial('_loop-blog');
-				endwhile; 
-					if (function_exists('wp_pagenavi')) { 
-						echo '<div class="clearfix"></div>';
-						wp_pagenavi();
-					};				
-				endif; 
-				wp_reset_query(); 
+				if (is_page()) {
+					get_partial('loop-page');
+				} elseif (is_single()) {
+					get_partial('loop-single');
+				} elseif (is_page_template('page-templates/page-sidebar.php')) {					
+					get_partial('loop-page-sidebar');					
+				} elseif (is_404()) {
+					get_partial('loop-404');
+				} else {
+					get_partial('loop-blog');
+				}				
 			?>
 		</div>
 	</main>
