@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.smbdeleteAAA61337f2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA61337f2",
-		"oF": 0
-		},
 	"\/404.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1638,6 +1632,48 @@
 		"oAP": "\/languages\/pp.pot",
 		"oF": 0
 		},
+	"\/page-templates\/blocks\/_comments-disqus.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/blocks\/_comments-disqus.php",
+		"oF": 0
+		},
+	"\/page-templates\/blocks\/_popups-imagem.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/blocks\/_popups-imagem.php",
+		"oF": 0
+		},
+	"\/page-templates\/blocks\/_popups-video.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/blocks\/_popups-video.php",
+		"oF": 0
+		},
+	"\/page-templates\/blocks\/_share-buttons.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/blocks\/_share-buttons.php",
+		"oF": 0
+		},
+	"\/page-templates\/blocks\/_slideshow.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/blocks\/_slideshow.php",
+		"oF": 0
+		},
+	"\/page-templates\/blocks\/_social-links.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/page-templates\/blocks\/_social-links.php",
+		"oF": 0
+		},
+	"\/page-templates\/blocks\/pp-block-depoimentos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-templates\/blocks\/pp-block-depoimentos.php",
+		"oF": 0
+		},
 	"\/page-templates\/page-downloads-com-filtro.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1696,48 +1732,6 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/_menu-nav.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/blocks\/_comments-disqus.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/blocks\/_comments-disqus.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/blocks\/_popups-imagem.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/blocks\/_popups-imagem.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/blocks\/_popups-video.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/blocks\/_popups-video.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/blocks\/_share-buttons.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/blocks\/_share-buttons.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/blocks\/_slideshow.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/blocks\/_slideshow.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/blocks\/_social-links.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/blocks\/_social-links.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/blocks\/pp-block-depoimentos.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/partials\/blocks\/pp-block-depoimentos.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/custons\/_assinatura-katon.php": {
