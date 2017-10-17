@@ -1,7 +1,7 @@
 <?php
 
 // Define theme constants
-define('PP_BLOCK_PATH', get_stylesheet_directory() . '/page-templates/partials/blocks/');
+define('PP_BLOCK_PATH', get_stylesheet_directory() . '/page-templates/blocks/');
 
 // Setup Framework Base Functions
 require_once ('functions/setup.php');
