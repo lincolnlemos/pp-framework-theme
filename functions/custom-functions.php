@@ -1,5 +1,8 @@
 <?php
 
+// WP_PAGENAVI with Bootstrap
+
+
 /**
  * Valida CNPJ
  *
@@ -178,7 +181,7 @@ function thumbnail_bg ( $tamanho = 'full' ) {
     } else if ($post->post_parent > 0 ) {
       $get_post_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->post_parent), $tamanho, false, '' );
       echo 'style="background-image: url('.$get_post_thumbnail[0].' );"';  
-    } {
+    } else {
       echo "no-bg";
     }    
 }
@@ -191,7 +194,7 @@ function get_thumbnail_bg ( $tamanho = 'full' ) {
     } else if ($post->post_parent > 0 ) {
       $get_post_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->post_parent), $tamanho, false, '' );
       return 'style="background-image: url('.$get_post_thumbnail[0].' );"';  
-    } {
+    } else {
       return "no-bg";
     }    
 }
@@ -407,4 +410,25 @@ function pp_related($args = []) {
     return '<div ' . $id . 'class="wp-caption ' . esc_attr($align) . '" style="width: auto">'
     . do_shortcode( $content ) . '<p class="wp-caption-text">' . $caption . '</p></div>';
   }
-/* ----------------------------------------- Remvoe width fixo de imagens com legenda no .hentry */    
+/* ----------------------------------------- Remvoe width fixo de imagens com legenda no .hentry */ 
+
+
+
+/* WP_PAGENAVI with Bootstrap */
+/* ----------------------------------------- */
+  
+  add_filter( 'wp_pagenavi', __NAMESPACE__ . '\\gc_pagination', 10, 2 );
+  function gc_pagination($html) {
+      $out = '';
+      $out = str_replace('<div','',$html);
+      $out = str_replace('class=\'wp-pagenavi\'>','',$out);
+      $out = str_replace('<a','<li class="page-item"><a class="page-link"',$out);
+      $out = str_replace('</a>','</a></li>',$out);
+      $out = str_replace('<span class=\'current\'','<li class="page-item active"><span class="page-link current"',$out);
+      $out = str_replace('<span class=\'pages\'','<li class="page-item"><span class="page-link pages"',$out);
+      $out = str_replace('<span class=\'extend\'','<li class="page-item"><span class="page-link extend"',$out);  
+      $out = str_replace('</span>','</span></li>',$out);
+      $out = str_replace('</div>','',$out);
+      return '<ul class="pagination mt-5 pt-5 justify-content-end">'.$out.'</ul>';
+  }
+/* ----------------------------------------- WP_PAGENAVI with Bootstrap */    

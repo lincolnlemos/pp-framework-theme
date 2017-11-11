@@ -7,21 +7,24 @@
 		"uuidString": "44D746E6-0CBB-4E3B-A265-DE151587B63D"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/assets\/css\/.smbdeleteAAA6117c60": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/.smbdeleteAAA6117c60",
 		"oF": 0
 		},
 	"\/assets\/css\/.smbdeleteAAA6117c61": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/.smbdeleteAAA6117c61",
@@ -38,6 +41,7 @@
 		"oS": 3
 		},
 	"\/assets\/css\/admin-style.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/admin-style.css.map",
@@ -54,6 +58,7 @@
 		"oS": 3
 		},
 	"\/assets\/css\/bootstrap.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/bootstrap.css.map",
@@ -70,6 +75,7 @@
 		"oS": 3
 		},
 	"\/assets\/css\/login-style.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/login-style.css.map",
@@ -86,6 +92,7 @@
 		"oS": 3
 		},
 	"\/assets\/css\/theme.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/theme.css.map",
@@ -175,6 +182,7 @@
 		"tS": 0
 		},
 	"\/assets\/js\/min\/common-min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/min\/common-min.js.map",
@@ -191,6 +199,7 @@
 		"tS": 0
 		},
 	"\/assets\/js\/min\/maps-min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/min\/maps-min.js.map",
@@ -257,6 +266,7 @@
 		"tS": 0
 		},
 	"\/assets\/js\/vendor\/sticky-sidebar\/jquery.sticky-sidebar.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/vendor\/sticky-sidebar\/jquery.sticky-sidebar.js.map",
@@ -1362,6 +1372,7 @@
 		"uL": 1
 		},
 	"\/assets\/scss\/pp\/.smbdeleteAAA41e5d97": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/scss\/pp\/.smbdeleteAAA41e5d97",
@@ -1521,280 +1532,325 @@
 		"oS": 1
 		},
 	"\/dummy\/cpt-ui\/cpt-portfolio": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dummy\/cpt-ui\/cpt-portfolio",
 		"oF": 0
 		},
 	"\/dummy\/cpt-ui\/cpt-produto": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dummy\/cpt-ui\/cpt-produto",
 		"oF": 0
 		},
 	"\/dummy\/cpt-ui\/cpt-servico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dummy\/cpt-ui\/cpt-servico",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/functions\/blocks\/layout-gallerys.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/blocks\/layout-gallerys.php",
 		"oF": 0
 		},
 	"\/functions\/custom-acf.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/custom-acf.php",
 		"oF": 0
 		},
 	"\/functions\/custom-actions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/custom-actions.php",
 		"oF": 0
 		},
 	"\/functions\/custom-functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/custom-functions.php",
 		"oF": 0
 		},
 	"\/functions\/custom-shortcakes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/custom-shortcakes.php",
 		"oF": 0
 		},
 	"\/functions\/custom-wpcf7.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/custom-wpcf7.php",
 		"oF": 0
 		},
 	"\/functions\/setup.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/setup.php",
 		"oF": 0
 		},
 	"\/functions\/vendor\/wp_bootstrap_navwalker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/vendor\/wp_bootstrap_navwalker.php",
 		"oF": 0
 		},
 	"\/functions\/wp-admin.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions\/wp-admin.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/includes\/cpt-ambientes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/cpt-ambientes.php",
 		"oF": 0
 		},
 	"\/includes\/cpt-arquivos.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/cpt-arquivos.php",
 		"oF": 0
 		},
 	"\/includes\/cpt-produtos.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/cpt-produtos.php",
 		"oF": 0
 		},
 	"\/includes\/cpt-servicos.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/cpt-servicos.php",
 		"oF": 0
 		},
 	"\/includes\/tax-tipos.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/tax-tipos.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/languages\/pp.pot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/pp.pot",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/_comments-disqus.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/blocks\/_comments-disqus.php",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/_popups-imagem.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/blocks\/_popups-imagem.php",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/_popups-video.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/blocks\/_popups-video.php",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/_share-buttons.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/blocks\/_share-buttons.php",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/_slideshow.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/blocks\/_slideshow.php",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/_social-links.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/blocks\/_social-links.php",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/carousel-depoimentos.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/blocks\/carousel-depoimentos.php",
 		"oF": 0
 		},
 	"\/page-templates\/blocks\/loop-content-post.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/blocks\/loop-content-post.php",
 		"oF": 0
 		},
 	"\/page-templates\/page-downloads-com-filtro.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/page-downloads-com-filtro.php",
 		"oF": 0
 		},
 	"\/page-templates\/page-home.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/page-home.php",
 		"oF": 0
 		},
 	"\/page-templates\/page-sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/page-sidebar.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/_header-archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/_header-archive.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/_header-search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/_header-search.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/_menu-default.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/_menu-default.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/_menu-grid.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/_menu-grid.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/_menu-nav.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/_menu-nav.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/custons\/_assinatura-katon.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/page-templates\/partials\/custons\/_assinatura-katon.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/loop-404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/partials\/loop-404.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/loop-blog.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/partials\/loop-blog.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/loop-page-sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/partials\/loop-page-sidebar.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/loop-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/partials\/loop-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/partials\/loop-single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-templates\/partials\/loop-single.php",
 		"oF": 0
 		},
 	"\/projeto.sublime-workspace": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/projeto.sublime-workspace",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1809,12 +1865,14 @@
 		"uCM": 0
 		},
 	"\/searchform.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/searchform.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar.php",
@@ -1839,12 +1897,14 @@
 		"opt": 0
 		},
 	"\/vendor\/slick\/config.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/vendor\/slick\/config.rb",
 		"oF": 0
 		},
 	"\/vendor\/slick\/fonts\/slick.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/vendor\/slick\/fonts\/slick.eot",
@@ -1861,12 +1921,14 @@
 		"prP": 0
 		},
 	"\/vendor\/slick\/fonts\/slick.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/vendor\/slick\/fonts\/slick.ttf",
 		"oF": 0
 		},
 	"\/vendor\/slick\/fonts\/slick.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/vendor\/slick\/fonts\/slick.woff",
@@ -2483,6 +2545,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2547,9 +2613,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2579,6 +2645,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2588,14 +2658,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3699,7 +3761,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3732,6 +3795,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3773,7 +3837,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3805,13 +3870,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3820,7 +3885,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3840,7 +3906,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3868,7 +3935,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
