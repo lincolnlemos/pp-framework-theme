@@ -175,3 +175,13 @@ add_filter( 'admin_body_class', 'id_usuario_body_class' );
   add_filter('tiny_mce_before_init', 'my_mce4_options');
 
 /* ----------------------------------------- TINYMCE */    
+
+
+/* Allow upload extra filetypes */
+/* ----------------------------------------- */
+  function my_extra_upload_files($mimes) {
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+  }
+  add_filter('upload_mimes', 'my_extra_upload_files');
+/* ----------------------------------------- Allow upload extra filetypes */    
