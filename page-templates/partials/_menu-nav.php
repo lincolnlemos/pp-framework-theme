@@ -10,12 +10,12 @@
           // Se estiver cadastrado o logotipo, exibe o mesmo. 
           // Caso contrário exibe o nome do site
           $headerName = $logotipo ? 
-            '<img src="'. $logotipo .'" class="d-none d-md-inline-block img-responsive" alt="Logotipo '.get_bloginfo().'"/>' :
+            '<img src="'. $logotipo .'" class="d-none d-md-inline-block img-fluid" alt="Logotipo '.get_bloginfo().'"/>' :
             get_bloginfo( 'name' );
           echo $headerName;
 
           // Se existir logo para mobile, exibe-o
-          echo ($mobileLogo ? '<img src="'. $mobileLogo .'" height="30" class="d-inline-block img-responsive d-md-none align-top" alt="Logotipo '.get_bloginfo().'">' : '');
+          echo ($mobileLogo ? '<img src="'. $mobileLogo .'" height="30" class="d-inline-block img-fluid d-md-none align-top" alt="Logotipo '.get_bloginfo().'">' : '');
 
         ?>
         

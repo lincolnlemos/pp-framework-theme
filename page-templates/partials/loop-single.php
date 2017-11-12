@@ -3,7 +3,7 @@
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 			<figure>
-				<?php the_post_thumbnail( 'post-thumb', array( 'class' => 'img-responsive' ) ); ?>
+				<?php the_post_thumbnail( 'post-thumb', array( 'class' => 'img-fluid' ) ); ?>
 			</figure>
 		</a>
 		<a href="<?php the_permalink(); ?>" title="Saiba mais sobre: <?php the_title(); ?>"><h2><?php the_title(); ?></h2></a>

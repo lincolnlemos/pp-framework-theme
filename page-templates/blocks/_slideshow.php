@@ -17,7 +17,7 @@
               <a href="<?php the_sub_field('link_slider'); ?>">Leia mais...</a>
             </section>
             
-            <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="img-responsive" />
+            <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="img-fluid" />
           </div>
         <?php endwhile; ?>
       </section>

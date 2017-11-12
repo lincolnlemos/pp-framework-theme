@@ -100,7 +100,7 @@ get_header(); ?>
 									<div class="col-sm-6 col-lg-4">
 										<article >											
 												<figure>													
-														<img src="<?php echo $imgSrc; ?>" alt="Capa <?php echo $arquivo['title']; ?>" class="img-responsive" />													
+														<img src="<?php echo $imgSrc; ?>" alt="Capa <?php echo $arquivo['title']; ?>" class="img-fluid" />													
 												</figure>											
 											<div class="desc">
 												<?php echo $desc; ?>

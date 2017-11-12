@@ -363,7 +363,7 @@ function pp_related($args = []) {
       $thumbnail = $thumbnail[0];
       $gallery .= "
         <figure href='".$image->guid."' data-caption='".$image->post_title."' data-fancybox='galeria-".$ids."'>
-          <img class='img-responsive' src='".$thumbnail."'>
+          <img class='img-fluid' src='".$thumbnail."'>
           <figcaption>
             <p class='img-title'>".$image->post_title." <br> <small>".$image->post_excerpt."</small></p>          
           </figcaption>
