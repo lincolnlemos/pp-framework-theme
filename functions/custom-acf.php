@@ -1,5 +1,13 @@
 <?php
 
+/* Register Google API Key */
+/* ----------------------------------------- */
+  function my_acf_init() {    
+    acf_update_setting('google_api_key', 'AIzaSyAX-IR1yudu-krqZF1Ch6ekbJoCQ1dJKUs');
+  }
+  add_action('acf/init', 'my_acf_init');
+/* ----------------------------------------- Register Google API Key */    
+
 
 /* Valida CPF no ACF */
 /* ----------------------------------------- */
