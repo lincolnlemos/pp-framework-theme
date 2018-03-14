@@ -97,8 +97,8 @@ if ( ! function_exists( 'pp_setup' ) ):
 
 		// Registers theme menu's 
 		register_nav_menus( array(
-			'global' => __( 'Navegação Global', 'partner-programmer' ),
-			'local' => __( 'Navegação Local', 'partner-programmer' ),
+			'primary' => __( 'Navegação Global', 'partner-programmer' ),
+			'secondary' => __( 'Navegação Local', 'partner-programmer' ),
 		) );
 
 }
