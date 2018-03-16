@@ -14,7 +14,7 @@ function pp_popups() {
   if (!$post) return;
   
   // Get popups
-  $popups = get_field( 'pp-popups', get_option( 'page_on_front' ) );
+  $popups = get_field( 'pp-popups', 'options' );
     
   if ($popups) {     
     foreach ($popups as $popup) {

@@ -65,7 +65,7 @@
   function wpmidia_custom_login() {
       echo '<link media="all" type="text/css" href="'.get_template_directory_uri().'/assets/css/login-style.css" rel="stylesheet">';
 
-      $logotipoID = get_post_meta(get_option( 'page_on_front' ), 'logotipo', 1);
+      $logotipoID = get_post_meta('options', 'logotipo', 1);
       if ($logotipoID) {
       ?>
         <style type="text/css" media="screen">

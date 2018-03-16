@@ -1,6 +1,6 @@
 <?php   
-  $mobileLogo = get_field('mobile_logotipo', get_option( 'page_on_front' ));
-  $logotipo = get_field('logotipo', get_option( 'page_on_front' ));
+  $mobileLogo = get_field('mobile_logotipo', 'options');
+  $logotipo = get_field('logotipo', 'options');
 ?>
   <div class="row">
     <nav id="navmenu" class="navbar navbar-expand-lg navbar-light animation-close-toggle w-100">

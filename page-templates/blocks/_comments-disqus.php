@@ -1,5 +1,5 @@
 <?php
-    $pp_disqus_shortname = get_field( 'pp_disqus_shortname', get_option( 'page_on_front' ) );
+    $pp_disqus_shortname = get_field( 'pp_disqus_shortname', 'options' );
     if ($pp_disqus_shortname) :
 ?>
 

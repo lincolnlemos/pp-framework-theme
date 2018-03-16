@@ -1,8 +1,8 @@
 <!-- banner -->
-  <?php if( have_rows('slider_principal',get_option( 'page_on_front' )) ): ?>
+  <?php if( have_rows('slider_principal','options') ): ?>
     <article id="slideshow" role="banner">
       <section class="banner">
-        <?php  while ( have_rows('slider_principal',get_option( 'page_on_front' )) ) : the_row();
+        <?php  while ( have_rows('slider_principal','options') ) : the_row();
         
           $image = get_sub_field('imagem_slider');
           $url = $image['url'];
