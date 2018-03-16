@@ -1,21 +1,23 @@
 <?php   
-  $mobileLogo = get_field('mobile_logotipo', 'options');
+  $logotipoMobile = get_field('mobile_logotipo', 'options');
   $logotipo = get_field('logotipo', 'options');
 ?>
   <div class="row">
     <nav id="navmenu" class="navbar navbar-expand-lg navbar-light animation-close-toggle w-100">
-      <a class="navbar-brand" href="<?php echo get_home_url(); ?>"> 
+      <a class="navbar-brand col" href="<?php echo get_home_url(); ?>"> 
         
         <?php         
+          // Se existir um $logotipoMobile cadastrado, altera as classes
+          $logotipoCssClass = $logotipoMobile ? 'd-none d-md-inline-block' : 'd-inline-block';
           // Se estiver cadastrado o logotipo, exibe o mesmo. 
-          // Caso contrário exibe o nome do site
+          // Caso contrário exibe o nome do site          
           $headerName = $logotipo ? 
-            '<img src="'. $logotipo .'" class="d-none d-md-inline-block img-fluid" alt="Logotipo '.get_bloginfo().'"/>' :
+            '<img src="'. $logotipo .'" class="'.$logotipoCssClass.' img-fluid" alt="Logotipo '.get_bloginfo().'"/>' :
             get_bloginfo( 'name' );
           echo $headerName;
 
           // Se existir logo para mobile, exibe-o
-          echo ($mobileLogo ? '<img src="'. $mobileLogo .'" height="30" class="d-inline-block img-fluid d-md-none align-top" alt="Logotipo '.get_bloginfo().'">' : '');
+          echo ($logotipoMobile ? '<img src="'. $logotipoMobile .'" height="30" class="d-inline-block d-md-none img-fluid align-top" alt="Logotipo '.get_bloginfo().'">' : '');
 
         ?>
         
@@ -27,7 +29,7 @@
 
         <?php 
           wp_nav_menu( array(         
-            'theme_location'    => 'global',
+            'theme_location'    => 'primary',
             'depth'             => 3,
             'container'         => 'div',
             'container_class'   => 'collapse navbar-collapse',
