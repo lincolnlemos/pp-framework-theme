@@ -7,7 +7,7 @@
 
 		<script> 
 			// Browser update
-			var $buoop = {vs:{i:10,f:-4,o:-4,s:8,c:-4},unsecure:true,api:4}; 
+			var $buoop = {notify:{e:-2,f:-3,o:-3,s:-2,c:-4},insecure:true,unsupported:true,api:5}; 
 			function $buo_f(){ 
 			 var e = document.createElement("script"); 
 			 e.src = "//browser-update.org/update.min.js"; 
