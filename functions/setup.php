@@ -18,6 +18,7 @@ function pp_load_scripts(){
 					
 		// wp_localize_script( 'jquery', 'siteVars', [] );
 	  	
+	  	wp_enqueue_style( 'bootstrap', $path_css . 'bootstrap.css');
 	  	wp_enqueue_style( 'libs', $path_css . 'libs.css');
 	  	wp_enqueue_style( 'main', $path_css . 'main.css');
 

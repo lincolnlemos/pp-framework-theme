@@ -1823,6 +1823,13 @@
 		"oAP": "\/functions\/wp-admin.php",
 		"oF": 0
 		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
 	"\/includes\/cpt-ambientes.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1972,13 +1979,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/loop\/loop-single.php",
-		"oF": 0
-		},
-	"\/templates\/page-home.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/templates\/page-home.php",
 		"oF": 0
 		},
 	"\/templates\/page-sidebar.php": {

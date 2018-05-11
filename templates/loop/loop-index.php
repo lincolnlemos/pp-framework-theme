@@ -13,6 +13,6 @@
 		_loop('page');
 
 	} else {
-		_loop('blog');
+		_loop('blog'); 
 	}				
 ?>
