@@ -1823,13 +1823,6 @@
 		"oAP": "\/functions\/wp-admin.php",
 		"oF": 0
 		},
-	"\/header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/header.php",
-		"oF": 0
-		},
 	"\/includes\/cpt-ambientes.php": {
 		"cB": 0,
 		"ft": 8192,
