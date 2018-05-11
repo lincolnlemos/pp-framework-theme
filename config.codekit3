@@ -7,7 +7,7 @@
 		"uuidString": "44D746E6-0CBB-4E3B-A265-DE151587B63D"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -16,18 +16,126 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/assets\/css\/.smbdeleteAAA6117c60": {
+	"\/acf-json\/group_561578035a638.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_561578035a638-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5af4eb686c3e2.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5af4eb686c3e2-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5af4ebca92c86.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5af4ebca92c86-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/all\/loop\/_popups-imagem.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.smbdeleteAAA6117c60",
+		"oA": 1,
+		"oAP": "\/all\/loop\/_popups-imagem.php",
 		"oF": 0
 		},
-	"\/assets\/css\/.smbdeleteAAA6117c61": {
+	"\/all\/loop\/_popups-video.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/loop\/_popups-video.php",
+		"oF": 0
+		},
+	"\/all\/loop\/_share-buttons.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/loop\/_share-buttons.php",
+		"oF": 0
+		},
+	"\/all\/loop\/_slideshow.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/loop\/_slideshow.php",
+		"oF": 0
+		},
+	"\/all\/loop\/_social-links.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/loop\/_social-links.php",
+		"oF": 0
+		},
+	"\/all\/loop\/carousel-depoimentos.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/css\/.smbdeleteAAA6117c61",
+		"oAP": "\/all\/loop\/carousel-depoimentos.php",
+		"oF": 0
+		},
+	"\/all\/loop\/loop-content-post.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/all\/loop\/loop-content-post.php",
+		"oF": 0
+		},
+	"\/all\/page-downloads-com-filtro.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/all\/page-downloads-com-filtro.php",
+		"oF": 0
+		},
+	"\/all\/page-home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/all\/page-home.php",
+		"oF": 0
+		},
+	"\/all\/partials\/_header-archive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/partials\/_header-archive.php",
+		"oF": 0
+		},
+	"\/all\/partials\/_header-search.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/partials\/_header-search.php",
+		"oF": 0
+		},
+	"\/all\/partials\/_menu-default.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/partials\/_menu-default.php",
+		"oF": 0
+		},
+	"\/all\/partials\/_menu-grid.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/partials\/_menu-grid.php",
+		"oF": 0
+		},
+	"\/all\/partials\/custons\/_assinatura-katon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/all\/partials\/custons\/_assinatura-katon.php",
 		"oF": 0
 		},
 	"\/assets\/css\/admin-style.css": {
@@ -81,6 +189,23 @@
 		"oAP": "\/assets\/css\/login-style.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/main.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/theme.css": {
 		"aP": 1,
 		"bl": 0,
@@ -98,49 +223,6 @@
 		"oAP": "\/assets\/css\/theme.css.map",
 		"oF": 0
 		},
-	"\/assets\/img\/katon\/katon-bg-1.png": {
-		"ft": 32768,
-		"iS": 3320,
-		"oA": 0,
-		"oAP": "\/assets\/img\/katon\/katon-bg-1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/katon\/katon-bg-2.png": {
-		"ft": 32768,
-		"iS": 1032,
-		"oA": 0,
-		"oAP": "\/assets\/img\/katon\/katon-bg-2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/katon\/katon.png": {
-		"ft": 32768,
-		"iS": 1919,
-		"oA": 0,
-		"oAP": "\/assets\/img\/katon\/katon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/js\/bootstrap.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/bootstrap-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/assets\/js\/common.js": {
 		"ft": 64,
 		"ma": 1,
@@ -151,146 +233,105 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/maps.js": {
+	"\/assets\/js\/libs(optionals)\/maps.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/maps-min.js",
+		"oAP": "\/assets\/js\/libs(optionals)\/min\/maps-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/bootstrap-min.js": {
+	"\/assets\/js\/libs\/bootstrap.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/bootstrap-min-min.js",
+		"oAP": "\/assets\/js\/libs\/min\/bootstrap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/common-min.js": {
+	"\/assets\/js\/libs\/jquery.fancybox.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/common-min-min.js",
+		"oAP": "\/assets\/js\/libs\/min\/jquery.fancybox.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/common-min.js.map": {
+	"\/assets\/js\/libs\/jquery.mask.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/libs\/min\/jquery.mask.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/libs\/min\/bootstrap-min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/libs\/min\/min\/bootstrap-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/libs\/min\/bootstrap-min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/js\/min\/common-min.js.map",
+		"oAP": "\/assets\/js\/libs\/min\/bootstrap-min.js.map",
 		"oF": 0
 		},
-	"\/assets\/js\/min\/maps-min.js": {
+	"\/assets\/js\/libs\/modernizr-2.7.1.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/maps-min-min.js",
+		"oAP": "\/assets\/js\/libs\/min\/modernizr-2.7.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/maps-min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/min\/maps-min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/min\/popper.min.js": {
+	"\/assets\/js\/libs\/popper.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/popper.min-min.js",
+		"oAP": "\/assets\/js\/libs\/min\/popper.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/not-phone.js": {
+	"\/assets\/js\/main.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/not-phone-min.js",
+		"oAP": "\/assets\/js\/min\/main-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/phone.js": {
-		"ft": 64,
+	"\/assets\/scss\/_sprites.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 1,
-		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/phone-min.js",
+		"oAP": "\/assets\/css\/_sprites.css",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/vendor\/jquery.mask.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/vendor\/min\/jquery.mask.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/vendor\/modernizr-2.7.1.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/vendor\/min\/modernizr-2.7.1.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/vendor\/sticky-sidebar\/jquery.sticky-sidebar.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/vendor\/sticky-sidebar\/min\/jquery.sticky-sidebar-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/vendor\/sticky-sidebar\/jquery.sticky-sidebar.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/vendor\/sticky-sidebar\/jquery.sticky-sidebar.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/vendor\/sticky-sidebar\/jquery.sticky-sidebar.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/vendor\/sticky-sidebar\/min\/jquery.sticky-sidebar.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/vendor\/sticky-sidebar\/ResizeSensor.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/vendor\/sticky-sidebar\/min\/ResizeSensor-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oS": 3,
+		"uL": 1
 		},
 	"\/assets\/scss\/_variables.scss": {
 		"aP": 1,
@@ -682,6 +723,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/bootstrap\/_root.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/_root.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/bootstrap\/_tables.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -877,6 +931,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/bootstrap\/mixins\/_caret.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/bootstrap\/css\/_caret.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/bootstrap\/mixins\/_clearfix.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1016,19 +1083,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/bootstrap\/mixins\/_nav-divider.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets\/scss\/bootstrap\/mixins\/_navbar-align.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/bootstrap\/mixins\/_navbar-align.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1306,6 +1360,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/bootstrap\/utilities\/_shadows.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/bootstrap\/css\/_shadows.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/bootstrap\/utilities\/_sizing.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1358,6 +1425,29 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/libs.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/libs.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/libs\/jquery.fancybox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/scss\/libs\/jquery.fancybox-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/scss\/login-style.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1371,12 +1461,18 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/scss\/pp\/.smbdeleteAAA41e5d97": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/scss\/pp\/.smbdeleteAAA41e5d97",
-		"oF": 0
+	"\/assets\/scss\/main.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/main.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/assets\/scss\/pp\/_pp-blocks.scss": {
 		"aP": 1,
@@ -1400,6 +1496,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/css\/_pp-mixins.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/pp\/_pp-search.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/_pp-search.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1430,15 +1539,93 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/scss\/theme.scss": {
+	"\/assets\/scss\/views\/view-common.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 0,
-		"oAP": "\/assets\/css\/theme.css",
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/view-common.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/views\/view-lg.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/view-lg.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/views\/view-md.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/view-md.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/views\/view-only-xs.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/view-only-xs.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/views\/view-sm.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/view-sm.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/views\/view-until-expand.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/view-until-expand.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/views\/view-xl.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/view-xl.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1566,6 +1753,13 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
+	"\/functions\/activation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions\/activation.php",
+		"oF": 0
+		},
 	"\/functions\/blocks\/layout-gallerys.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1685,160 +1879,6 @@
 		"oAP": "\/languages\/pp.pot",
 		"oF": 0
 		},
-	"\/page-templates\/blocks\/_comments-disqus.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/blocks\/_comments-disqus.php",
-		"oF": 0
-		},
-	"\/page-templates\/blocks\/_popups-imagem.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/blocks\/_popups-imagem.php",
-		"oF": 0
-		},
-	"\/page-templates\/blocks\/_popups-video.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/blocks\/_popups-video.php",
-		"oF": 0
-		},
-	"\/page-templates\/blocks\/_share-buttons.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/blocks\/_share-buttons.php",
-		"oF": 0
-		},
-	"\/page-templates\/blocks\/_slideshow.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/blocks\/_slideshow.php",
-		"oF": 0
-		},
-	"\/page-templates\/blocks\/_social-links.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/blocks\/_social-links.php",
-		"oF": 0
-		},
-	"\/page-templates\/blocks\/carousel-depoimentos.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/blocks\/carousel-depoimentos.php",
-		"oF": 0
-		},
-	"\/page-templates\/blocks\/loop-content-post.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/blocks\/loop-content-post.php",
-		"oF": 0
-		},
-	"\/page-templates\/page-downloads-com-filtro.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/page-downloads-com-filtro.php",
-		"oF": 0
-		},
-	"\/page-templates\/page-home.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/page-home.php",
-		"oF": 0
-		},
-	"\/page-templates\/page-sidebar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/page-sidebar.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/_header-archive.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/_header-archive.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/_header-search.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/_header-search.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/_menu-default.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/_menu-default.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/_menu-grid.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/_menu-grid.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/_menu-nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/_menu-nav.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/custons\/_assinatura-katon.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/page-templates\/partials\/custons\/_assinatura-katon.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/loop-404.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/partials\/loop-404.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/loop-blog.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/partials\/loop-blog.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/loop-page-sidebar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/partials\/loop-page-sidebar.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/loop-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/partials\/loop-page.php",
-		"oF": 0
-		},
-	"\/page-templates\/partials\/loop-single.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-templates\/partials\/loop-single.php",
-		"oF": 0
-		},
 	"\/projeto.sublime-workspace": {
 		"cB": 0,
 		"ft": 8192,
@@ -1864,6 +1904,17 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/screenshot.png": {
+		"ft": 32768,
+		"iS": 32781,
+		"oA": 0,
+		"oAP": "\/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/searchform.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1888,117 +1939,89 @@
 		"oF": 3,
 		"oS": 0
 		},
-	"\/vendor\/slick\/ajax-loader.gif": {
-		"ft": 4194304,
-		"iS": 4178,
-		"oA": 0,
-		"oAP": "\/vendor\/slick\/ajax-loader.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/vendor\/slick\/config.rb": {
+	"\/templates\/loop\/loop-404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/vendor\/slick\/config.rb",
+		"oAP": "\/templates\/loop\/loop-404.php",
 		"oF": 0
 		},
-	"\/vendor\/slick\/fonts\/slick.eot": {
+	"\/templates\/loop\/loop-blog.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/vendor\/slick\/fonts\/slick.eot",
+		"oAP": "\/templates\/loop\/loop-blog.php",
 		"oF": 0
 		},
-	"\/vendor\/slick\/fonts\/slick.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/vendor\/slick\/fonts\/slick.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/vendor\/slick\/fonts\/slick.ttf": {
+	"\/templates\/loop\/loop-index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/vendor\/slick\/fonts\/slick.ttf",
+		"oAP": "\/templates\/loop\/loop-index.php",
 		"oF": 0
 		},
-	"\/vendor\/slick\/fonts\/slick.woff": {
+	"\/templates\/loop\/loop-page-sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/vendor\/slick\/fonts\/slick.woff",
+		"oAP": "\/templates\/loop\/loop-page-sidebar.php",
 		"oF": 0
 		},
-	"\/vendor\/slick\/slick-theme.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/vendor\/slick\/slick-theme-min.css",
-		"oF": 0,
-		"oS": 3
+	"\/templates\/loop\/loop-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/loop\/loop-page.php",
+		"oF": 0
 		},
-	"\/vendor\/slick\/slick-theme.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/vendor\/slick\/slick-theme.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
+	"\/templates\/loop\/loop-single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/loop\/loop-single.php",
+		"oF": 0
 		},
-	"\/vendor\/slick\/slick.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/vendor\/slick\/slick-min.css",
-		"oF": 0,
-		"oS": 3
+	"\/templates\/page-home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/page-home.php",
+		"oF": 0
 		},
-	"\/vendor\/slick\/slick.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/vendor\/slick\/min\/slick-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+	"\/templates\/page-sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/page-sidebar.php",
+		"oF": 0
 		},
-	"\/vendor\/slick\/slick.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/vendor\/slick\/min\/slick.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+	"\/templates\/partials\/_comments-disqus.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/templates\/partials\/_comments-disqus.php",
+		"oF": 0
 		},
-	"\/vendor\/slick\/slick.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/vendor\/slick\/slick.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
+	"\/templates\/partials\/_main-end.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/templates\/partials\/_main-end.php",
+		"oF": 0
+		},
+	"\/templates\/partials\/_main-start.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/templates\/partials\/_main-start.php",
+		"oF": 0
+		},
+	"\/templates\/partials\/_menu-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/templates\/partials\/_menu-nav.php",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -2009,14 +2032,16 @@
 	"creationDate": 528382147,
 	"displayValue": "pp-framework-theme",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-owl"
+	"iconImageName": "meme-owl",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2580,6 +2605,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -3399,7 +3428,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/ppframework.local",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3807,6 +3836,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

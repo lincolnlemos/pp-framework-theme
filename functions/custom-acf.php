@@ -11,7 +11,7 @@
 
 /* Valida CPF no ACF */
 /* ----------------------------------------- */
-  add_filter('acf/validate_value/name=cpf_user', 'pp_acf_valid_cpf', 10, 4);
+  add_filter('acf/validate_value/name=cpf', 'pp_acf_valid_cpf', 10, 4);
 
   function pp_acf_valid_cpf( $valid, $value, $field, $input ){
     
@@ -35,7 +35,7 @@
 
 /* Valida CNPJ no ACF */
 /* ----------------------------------------- */
-  add_filter('acf/validate_value/name=cnpj_user', 'pp_acf_valid_cnpj', 10, 4);
+  add_filter('acf/validate_value/name=cnpj', 'pp_acf_valid_cnpj', 10, 4);
 
   function pp_acf_valid_cnpj( $valid, $value, $field, $input ){
     
@@ -63,7 +63,7 @@
   $optionsPage = array(
     
     /* (string) The title displayed on the options page. Required. */
-  'page_title' => 'Opções',
+  'page_title' => 'Geral',
   
   /* (string) The title displayed in the wp-admin sidebar. Defaults to page_title */
   'menu_title' => '',
@@ -80,7 +80,7 @@
   WARNING: if two menu items use the same position attribute, one of the items may be overwritten so that only one item displays!
   Risk of conflict can be reduced by using decimal instead of integer values, e.g. '63.3' instead of 63 (must use quotes).
   Defaults to bottom of utility menu items */
-  'position' => 9,
+  'position' => 3,
   
   /* (string) The slug of another WP admin page. if set, this will become a child page. */
   'parent_slug' => '',
@@ -101,5 +101,12 @@
   'autoload' => false,
     
   );  
+
+  if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page($optionsPage);
+    
+  }
+
 
 /* ----------------------------------------- Cria página "Opções" para o ACF */    

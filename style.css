@@ -1,9 +1,13 @@
 /*
-Theme Name: PP Framework Theme
-Theme URI: http://www.partnerprogrammer.com
-Description: Partner Programmer
-Version: 1.0
-Author: PP & 
+Theme Name: 	PP Framework Theme
+Theme URI: 		http://partnerprogrammer.com
+Description: 	A simple WordPress starter theme by the Partner Programmer team.
+Version: 		1.0
+Author: 		Partner Programmer <wp@partnerprogrammer.com>
+Text Domain: 	pp
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
 */
 
 @import "assets/css/bootstrap.css";

